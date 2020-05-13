@@ -5,6 +5,7 @@ module.exports = {
     title: `Restaurante El Astronauta Córdoba`,
     description: ``,
     author: `Estudio Pablo Gallego`,
+    siteUrl: `http://elastronauta.es/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -63,7 +64,7 @@ module.exports = {
     //     environments: ['production', 'development']
     //   },
     // },
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
