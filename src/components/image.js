@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import styles from "./image.module.scss"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -19,18 +20,22 @@ const Image = () => {
       allFile(filter: {sourceInstanceName: {eq: "imagesgaleria"}}) {
         nodes {
           childImageSharp {
-            fluid(maxWidth: 1992, maxHeight: 1602, quality: 40)  {
+            fluid(maxWidth: 1992, maxHeight: 1602, quality: 60)  {
               ...GatsbyImageSharpFluid_withWebp
-            }
+            },
+            id
           }
         }
       }
     }
   `)
-    console.log(data.allFile.nodes)
-  return data.allFile.nodes.map(node=>(
-      <Img fluid={node.childImageSharp.fluid} />
-    )
+  return (<div className={styles.container}>
+    {data.allFile.nodes.map(node=>(
+      <div key={node.childImageSharp.id}>
+        <Img className={styles.image_container} objectFit="cover" fluid={node.childImageSharp.fluid} />
+      </div>
+    ))}
+  </div>
   )
      //<Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }

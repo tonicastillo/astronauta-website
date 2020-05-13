@@ -2,10 +2,11 @@
 
 .container_external{
     max-width: $max-width;
-    margin: 5.2rem auto 4.2rem;
+    margin: 0 auto;
     .container_internal{
-        padding:  $margin-mobile; //Preguntar a pablo qué ocurre cuando agrandamos
+        padding: 0 $margin-mobile; //Preguntar a pablo qué ocurre cuando agrandamos
         header{
+            padding: 5.2rem 0 4.2rem;
             h1{
                 margin: 0;
                 height: 1.7rem;
