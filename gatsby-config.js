@@ -9,13 +9,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `images`,
-    //     path: `${__dirname}/src/images`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `imagesgaleria`,
+        path: `${__dirname}/src/images/galeria`,
+      },
+    },
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {
