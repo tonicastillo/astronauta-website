@@ -1,0 +1,25 @@
+@import "./shared";
+
+.container_external{
+    max-width: $max-width;
+    margin: 5.2rem auto 4.2rem;
+    .container_internal{
+        padding:  $margin-mobile; //Preguntar a pablo qué ocurre cuando agrandamos
+        header{
+            h1{
+                margin: 0;
+                height: 1.7rem;
+                background-image: url(../stylesimages/logo_astro.svg);
+                background-position: left center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                @media #{$media-tablet-landscape}{
+                    height: 1.4rem;
+                }
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+}
