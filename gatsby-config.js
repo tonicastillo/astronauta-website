@@ -14,6 +14,7 @@ module.exports = {
       options: {
         name: `galeriaescritorio`,
         path: `${__dirname}/src/images/galeriaescritorio`,
+        ignore: [`**/\*.md`],
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -22,6 +23,7 @@ module.exports = {
       options: {
         name: `galeriacuadradas`,
         path: `${__dirname}/src/images/galeriacuadradas`,
+        ignore: [`**/\*.md`],
       },
     },
     // {
