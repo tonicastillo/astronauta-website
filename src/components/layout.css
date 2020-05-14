@@ -50,4 +50,8 @@ html,
 body{
   font-size: 10px;
   font-family: 'Work Sans', sans-serif;
+  color: black;
+}
+a{
+	color: black;
 }

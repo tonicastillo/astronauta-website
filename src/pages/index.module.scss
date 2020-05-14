@@ -27,10 +27,24 @@
 }
 
 .descargas_movil{
+    padding-top: 2.8rem;
     @media #{$media-tablet-portrait}{
         display: none;
     }
-    border: 10px dotted blue;
+    a{
+        display: block;
+        margin-top: 1.8rem;
+        font-size: 1.6rem;
+        line-height: 1.5rem;
+        color: black;
+        text-decoration: underline;
+        svg{
+            width: 1.6rem;
+            height: auto;
+            vertical-align: bottom;
+            margin-right: 4px;
+        }
+    }
 }
 .descargas_escritorio{
     display: none;
@@ -74,4 +88,49 @@
             width: 100%;
         }
     }
+}
+.contenido_principal{
+    line-height: 2.2rem;
+    font-size: 1.6rem;
+    @media #{$media-tablet-portrait}{
+        display: flex;
+        line-height: 1.8rem;
+        font-size: 1.2rem;
+    }
+    .col1{
+        padding-top: 5.4rem;
+        @media #{$media-tablet-portrait}{
+            padding-top: 0;
+        }
+    }
+    .col2{
+        padding-top: 5.4rem;
+        @media #{$media-tablet-portrait}{
+            padding-top: 0;
+        }
+    }
+    .col3{
+        padding-top: 3rem;
+        @media #{$media-tablet-portrait}{
+            padding-top: 0;
+        }
+    }
+}
+footer{
+    padding-top: 10.8rem;
+    span{
+        display: inline-block;
+        margin-right: 0.4rem;
+        line-height: 0.8rem;
+        font-size: 1.2rem;
+        color: #7E7E7E;
+        @media #{$media-tablet-portrait}{
+            font-size: 1rem;
+        }
+        &:nth-child(2){
+            padding-left: 0.4rem;
+            border-left: 1px solid #7E7E7E;
+        }
+    }
+    
 }
