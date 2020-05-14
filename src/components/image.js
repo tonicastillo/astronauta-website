@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 import styles from "./image.module.scss"
 
 /*
@@ -17,16 +17,6 @@ import styles from "./image.module.scss"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      escritorio:allFile(filter: {sourceInstanceName: {eq: "galeriaescritorio"}}) {
-        nodes {
-          childImageSharp {
-            fluid(maxWidth: 1992, maxHeight: 1602, quality: 60)  {
-              ...GatsbyImageSharpFluid_withWebp
-            },
-            id
-          }
-        }
-      }
       cuadradas:allFile(filter: {sourceInstanceName: {eq: "galeriacuadradas"}}) {
         nodes {
           childImageSharp {
@@ -37,24 +27,39 @@ const Image = () => {
           }
         }
       }
+      escritorio:allFile(filter: {sourceInstanceName: {eq: "galeriaescritorio"}}) {
+        nodes {
+          childImageSharp {
+            fluid(maxWidth: 1992, quality: 60)  {
+              ...GatsbyImageSharpFluid_withWebp
+              aspectRatio
+            },
+            id
+          }
+        }
+      }
     }
   `)
   return (<div className={styles.container}>
+    
+    <div className={styles.square}>
+      {data.cuadradas.nodes.map(node=>(
+        <div key={node.childImageSharp.id} className={styles.image_container}>
+          <Img className={styles.image_content} objectFit="cover" fluid={node.childImageSharp.fluid} />
+        </div>
+      ))}
+    </div>
     <div className={styles.desktop}>
     {data.escritorio.nodes.map(node=>(
-      <div key={node.childImageSharp.id}>
-        <Img className={styles.image_container} objectFit="contain" fluid={node.childImageSharp.fluid} />
+      <div key={node.childImageSharp.id} className={styles.image_container}>
+        <Img
+          className={styles.image_content}
+          objectFit="contain"
+          fluid={node.childImageSharp.fluid}
+        />
       </div>
     ))}
-  </div>
-  <div className={styles.square}>
-    {data.cuadradas.nodes.map(node=>(
-      <div key={node.childImageSharp.id}>
-        <Img className={styles.image_container} objectFit="cover" fluid={node.childImageSharp.fluid} />
-      </div>
-    ))}
-  </div>
-    
+    </div>
   </div>
   )
 }
