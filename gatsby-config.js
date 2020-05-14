@@ -12,8 +12,16 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `imagesgaleria`,
-        path: `${__dirname}/src/images/galeria`,
+        name: `galeriaescritorio`,
+        path: `${__dirname}/src/images/galeriaescritorio`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `galeriacuadradas`,
+        path: `${__dirname}/src/images/galeriacuadradas`,
       },
     },
     // {

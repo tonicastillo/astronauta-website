@@ -1,7 +1,20 @@
+@import "../stylesimages/shared";
+
 .container{
     background-color: #f7f7f7;
     position: relative;
     padding-top: 100%;
+    .desktop{
+        display: none;
+        @media #{$media-tablet-portrait}{
+            display: block;
+        }
+    }
+    .square{
+        @media #{$media-tablet-portrait}{
+            display: none;
+        }
+    }
     >div{
         position: absolute;
         top: 0;

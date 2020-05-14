@@ -17,7 +17,7 @@ import styles from "./image.module.scss"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: {sourceInstanceName: {eq: "imagesgaleria"}}) {
+      escritorio:allFile(filter: {sourceInstanceName: {eq: "galeriaescritorio"}}) {
         nodes {
           childImageSharp {
             fluid(maxWidth: 1992, maxHeight: 1602, quality: 60)  {
@@ -27,17 +27,36 @@ const Image = () => {
           }
         }
       }
+      cuadradas:allFile(filter: {sourceInstanceName: {eq: "galeriacuadradas"}}) {
+        nodes {
+          childImageSharp {
+            fluid(maxWidth: 1280, maxHeight: 1280, quality: 40)  {
+              ...GatsbyImageSharpFluid_withWebp
+            },
+            id
+          }
+        }
+      }
     }
   `)
   return (<div className={styles.container}>
-    {data.allFile.nodes.map(node=>(
+    <div className={styles.desktop}>
+    {data.escritorio.nodes.map(node=>(
+      <div key={node.childImageSharp.id}>
+        <Img className={styles.image_container} objectFit="contain" fluid={node.childImageSharp.fluid} />
+      </div>
+    ))}
+  </div>
+  <div className={styles.square}>
+    {data.cuadradas.nodes.map(node=>(
       <div key={node.childImageSharp.id}>
         <Img className={styles.image_container} objectFit="cover" fluid={node.childImageSharp.fluid} />
       </div>
     ))}
   </div>
+    
+  </div>
   )
-     //<Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Image
