@@ -8,6 +8,11 @@
         header{
             padding: 5.2rem 0 4.2rem;
             position: relative;
+            @media #{$media-tablet-lessthanportrait}{
+                width: calc(100vw - #{$margin-mobile} - #{$margin-mobile});
+
+                position: fixed;
+            }
             h1{
                 margin: 0;
                 height: 1.7rem;
@@ -18,6 +23,10 @@
                 @media #{$media-tablet-landscape}{
                     height: 1.4rem;
                 }
+                a{
+                    display: block;
+                    height: 100%;
+                }
                 span{
                     display: none;
                 }
@@ -25,7 +34,42 @@
         }
     }
 }
+.home_image{
+    @media #{$media-tablet-lessthanportrait}{
+        position: fixed;
+        top: 111px;
+        width: calc(100vw - #{$margin-mobile} - #{$margin-mobile});
+    }
+}
+.home_scroll{
+    @media #{$media-tablet-lessthanportrait}{
+        position: relative;
+        padding-top: 111px;
+        width: calc(100vw - #{$margin-mobile} - #{$margin-mobile});
+        &::before{
+            content: '';
+            display: block;
+            
+            
+            @media (max-aspect-ratio: 720/867) {
+                padding-top: 100%;
+                max-height: calc(100vh - 190px);
+            }
+            @media (min-aspect-ratio: 720/867) {
+                height: calc(100vh - 190px);
+                padding-top: 0;
+            }
+        }
+    }
+}
+.home_background_white{
+    background-color: white;
+    padding-bottom: 20vh;
+    @media #{$media-tablet-portrait}{
+        padding-bottom: 4rem;
+    }
 
+}
 .descargas_movil{
     padding-top: 2.8rem;
     @media #{$media-tablet-portrait}{

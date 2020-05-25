@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
 import styles from "./image.module.scss"
@@ -40,18 +40,31 @@ const Image = () => {
       }
     }
   `)
+
+  const [activeImage, setActiveImage] = useState(0);
+  const imageQuantity = data.cuadradas.nodes.length;
+  useEffect(() => {
+    let interval = null;
+    interval = setInterval(() => {
+      setActiveImage(activeImage + 1 >= imageQuantity ? 0 : activeImage + 1);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [activeImage]);
+
+
   return (<div className={styles.container}>
     
     <div className={styles.square}>
-      {data.cuadradas.nodes.map(node=>(
-        <div key={node.childImageSharp.id} className={styles.image_container}>
-          <Img className={styles.image_content} objectFit="cover" fluid={node.childImageSharp.fluid} />
+      {data.cuadradas.nodes.map((node, i)=>(
+        <div key={node.childImageSharp.id} className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
+          <Img className={styles.image_content} objectFit="contain" fluid={node.childImageSharp.fluid} />
         </div>
       ))}
     </div>
     <div className={styles.desktop}>
-    {data.escritorio.nodes.map(node=>(
-      <div key={node.childImageSharp.id} className={styles.image_container}>
+    {data.escritorio.nodes.map((node, i)=>(
+      <div key={node.childImageSharp.id} className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
         <Img
           className={styles.image_content}
           objectFit="contain"
