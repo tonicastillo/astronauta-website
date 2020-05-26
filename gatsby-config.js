@@ -73,6 +73,14 @@ module.exports = {
         icon: `src/stylesimages/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        www: true,
+        host: 'www.elastronauta.es',
+        https: true,
+      }
+    },
 
     // {
     //   resolve: `gatsby-plugin-gdpr-cookies`,

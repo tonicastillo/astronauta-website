@@ -70,7 +70,7 @@ const Layout = ({ children }) => {
                   </div>
                 </div>
                 <footer>
-                  <span>Aviso legal y política de confidencialidad.</span> 
+                  <span><Link to="/legal">Aviso legal</Link>.</span> 
                   <span>© Proyecto el Astronauta 2020</span>
                 </footer>
               </div>
