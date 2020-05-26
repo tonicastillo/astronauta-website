@@ -76,5 +76,5 @@ Cena de lunes a jueves y almuerzo de sábado 12,00 € (medio 8,50 €)
 
 
 **Alérgenos**  
-Si tienes alguna intolerancia alimenticia aquí puedes ver <a href="desarga.pdf">nuestra carta con indicaciones de alérgenos</a>.
+Si tienes alguna intolerancia alimenticia aquí puedes ver [nuestra carta con indicaciones de alérgenos](astro_2020_tabla_alergenos.pdf)</a>.
 
