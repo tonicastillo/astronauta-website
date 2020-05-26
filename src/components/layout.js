@@ -57,7 +57,8 @@ const Layout = ({ children }) => {
                   <div className={styles.col1}>
                     <a href="tel:+34957491123">957 491 123</a><br />
                     Reservas y pedidos para recoger<br /><br />
-                    <a href="https://www.just-eat.es/" target="_blank">Just Eat</a> (Pedidos para llevar)
+                    <a href="https://www.just-eat.es/" target="_blank">Just Eat</a>  ¡Próximamente!
+                    {/* (Pedidos para llevar) */}
                   </div>
                   <div className={styles.col2}>
                     <a href="mailto:hola@elastronauta.es">hola@elastronauta.es</a><br />

@@ -93,7 +93,8 @@
 .descargas_escritorio{
     display: none;
     @media #{$media-tablet-portrait}{
-        display: block;
+        display: flex;
+        justify-content: flex-end;
         position: absolute;
         left: 0%;
         right: 0%;
@@ -101,36 +102,44 @@
     }
     a{
         display: block;
-        position: absolute;
+        // position: absolute;
+        padding-left: 2.2rem;
+        margin-left: 7rem;
         left: 30%;
         font-size: 1.2rem;
         color: black;
         text-decoration: none;
+        background-image: url(../stylesimages/icono_enlace.svg);
+        background-repeat: no-repeat;
+        background-position: 0rem 50%;
+        background-size: 1.3rem auto;
+        transition: all .3s;
         &:nth-child(2){
             left: 61%;
         }
         &:hover{
+            background-position: 0.5rem 50%;
             // text-decoration: underline;
         }
-        svg{
-            width: 1.6rem;
-            height: auto;
-            vertical-align: top;
-            margin-right: 4px;
-        }
-        &:after{
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 1.6rem;
-            height: 1px;
-            background-color: black;
-            transition: width 0.25s ease-in-out;
-        }
-        &:hover::after{
-            width: 100%;
-        }
+        // svg{
+        //     width: 1.6rem;
+        //     height: auto;
+        //     vertical-align: top;
+        //     margin-right: 4px;
+        // }
+        // &:after{
+        //     content: '';
+        //     position: absolute;
+        //     left: 0;
+        //     bottom: 0;
+        //     width: 1.6rem;
+        //     height: 1px;
+        //     background-color: black;
+        //     transition: width 0.25s ease-in-out;
+        // }
+        // &:hover::after{
+        //     width: 100%;
+        // }
     }
 }
 .contenido_principal{

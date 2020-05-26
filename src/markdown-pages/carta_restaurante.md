@@ -62,8 +62,19 @@ color: "#bae5e0"
 |**Tarta de zanahoria** con helado de mandarina                                                                                              |            |5,00 € |
 |**Tarta de queso** con frutos rojos                                                                                                     |            |5,00 € |
 
-|Otros                                                            |            |       |
-|-----------------------------------------------------------------|------------|-------|
-|**Servicio de pan** |            |1,00 € |
-|**Menú diario (incluye 1er plato, 2º plato, una bebida y un postre)** **Almuerzo de lunes a viernes 10,00 € –medio 7,00 €– Cena de lunes a jueves y almuerzo de sábado 12,00 € –medio 8,50 €–|            |       |
-|**Alérgenos** Si tienes alguna intolerancia alimenticia aquí puedes ver nuestra carta con indicaciones de alérgenos.               |            |       |
+**Servicio de pan**  1,00 €
+
+---
+**MENÚ DIARIO**  
+*(incluye 1er plato, 2º plato, una bebida y un postre)*
+
+
+Almuerzo de lunes a viernes 10,00 € (medio 7,00 €)
+
+
+Cena de lunes a jueves y almuerzo de sábado 12,00 € (medio 8,50 €)
+
+
+**Alérgenos**  
+Si tienes alguna intolerancia alimenticia aquí puedes ver <a href="desarga.pdf">nuestra carta con indicaciones de alérgenos</a>.
+
