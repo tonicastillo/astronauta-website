@@ -76,7 +76,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-htaccess',
       options: {
-        www: true,
+        www: false,
         host: 'www.elastronauta.es',
         https: true,
       }
