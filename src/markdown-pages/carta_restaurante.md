@@ -1,6 +1,6 @@
 ---
 slug: "/carta_restaurante/"
-title: "Carta para restaurante"
+title: "Carta restaurante"
 titleseo: "Carta menú restaurante El Astronauta Córdoba"
 orden: 1
 color: "#bae5e0"
@@ -21,8 +21,8 @@ color: "#bae5e0"
 |**Fajitas de pollo al curry rojo**  con verduras acompañado de curry rojo.    |8,50 €      |10,50 €|
 |**Tabla de quesos**  Queso tierno de cabra con leche cruda, Gouda viejo de vaca, oveja curado, azul de vaca, torta de oveja acompañados con manzana, membrillo, pasas y frutos secos.|9,00 €      |12,50 €|
 
-|Ensaladas                                                        |    1/2     |Entera |
-|-----------------------------------------------------------------|------------|-------|
+|Ensaladas |  1/2   |Entera |
+|---|---|---|
 |**Ensalada de arroces ecológicos** con atún marinado, verduras, alga nori y vinagreta de soja.              |9,00 €      |12,00 €|
 |**Ensalada de queso de cabra** con cebolla caramelizada, frutos secos y vinagreta de mostaza.             |9,00 €      |12,00 €|
 |**Ensalada de bacalao ahumado** con naranja, mazamorra y vinagreta de aceitunas negras.                                   |9,00 €      |12,00 €|
