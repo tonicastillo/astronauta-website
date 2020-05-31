@@ -1,6 +1,6 @@
 ---
 slug: "/carta_recoger/"
-title: "Carta recoger"
+title: "Carta para recoger"
 titleseo: "Carta menú para recoger restaurante El Astronauta Córdoba"
 orden: 2
 color: "#e5f4c3"
