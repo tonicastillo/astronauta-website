@@ -58,6 +58,7 @@ const Layout = ({ children }) => {
           <div className={styles.home_scroll}>
             <div className={styles.home_background_white}>
               <div className={styles.descargas_movil}>
+                <a href="/navidad/">Menús navidad 2020</a>
                 {cartas.map((carta, i) => (
                   <Link
                     key={carta.frontmatter.slug}
