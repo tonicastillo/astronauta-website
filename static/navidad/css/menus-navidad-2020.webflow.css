@@ -1,0 +1,479 @@
+.image {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.body {
+  background-color: #bae5e0;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.image-2 {
+  display: block;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.menu {
+  margin-bottom: 40px;
+  padding-right: 0%;
+  padding-left: 0%;
+  border-top: 1px solid hsla(0, 0%, 60.8%, 0.4);
+}
+
+.titulo-precio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.precios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.heading-2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.precio {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.precio.vino {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.text-block {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.plato {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.plato-descripcion {
+  padding-bottom: 5px;
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.precio-y-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lista-vinos {
+  margin-bottom: 40px;
+  padding-right: 0%;
+  padding-left: 0%;
+  border-top: 1px solid hsla(0, 0%, 60.8%, 0.4);
+}
+
+.vino-nombre {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.vino-descripcion {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.vino {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nombre-descrip-vino {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.precio-y-text-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.texto-avisos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-right: 0%;
+  padding-left: 0%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid hsla(0, 0%, 60.8%, 0.4);
+}
+
+.paragraph {
+  max-width: 55ch;
+  margin-top: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.paragraph.lista {
+  margin-top: 0px;
+  padding-bottom: 8px;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.textos {
+  margin-left: 0%;
+}
+
+.legales {
+  padding-right: 8px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+}
+
+.textos-legales {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0%;
+}
+
+.descargas {
+  margin-bottom: 0px;
+  padding-right: 0%;
+  padding-left: 0%;
+  border-top: 1px solid hsla(0, 0%, 60.8%, 0.4);
+}
+
+.lista-descargas {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.descarga-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.descarga-item:hover {
+  text-decoration: none;
+}
+
+.descarga-nombre {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 0px;
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+}
+
+.descarga-nombre:hover {
+  border-style: none;
+  border-width: 1px 1px 0px;
+  border-color: #000;
+}
+
+.image-3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .menu {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .lista-vinos {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .texto-avisos {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .textos-legales {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .descargas {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .nav-menu {
+    padding-right: 20px;
+  }
+
+  .lista-vinos {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .texto-avisos {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .textos-legales {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .descargas {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .image {
+    padding-top: 40px;
+  }
+
+  .menu {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .titulo-precio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .precio {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .text-block {
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+
+  .plato-descripcion {
+    padding-bottom: 8px;
+  }
+
+  .nav-menu {
+    padding-right: 20px;
+  }
+
+  .precio-y-text {
+    display: block;
+    padding-right: 33px;
+  }
+
+  .lista-vinos {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .vino-nombre {
+    padding-bottom: 0px;
+  }
+
+  .vino-descripcion {
+    padding-top: 0px;
+    padding-bottom: 8px;
+  }
+
+  .vino {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .nombre-descrip-vino {
+    display: block;
+  }
+
+  .precio-y-text-copy {
+    display: block;
+    padding-right: 33px;
+  }
+
+  .texto-avisos {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .textos-legales {
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .descargas {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .lista-descargas {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .descarga-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 0px;
+  }
+
+  .descarga-nombre {
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+
+  .brand {
+    padding-left: 20px;
+  }
+}
+
