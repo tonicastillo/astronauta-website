@@ -1,0 +1,18 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\ngatsby build"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\ngatsby clean"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\ngatsby develop"
+    }
+  },
+  "identifier" : "6ED180D3-B279-4CC1-B77B-2D43420E878E",
+  "openLogOnRun" : "start"
+}
