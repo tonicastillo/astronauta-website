@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
               </Link>
             </h1>
             <div className={styles.descargas_escritorio}>
-              <a href="/navidad/">Menús navidad 2020</a>
+              {/* <a href="/navidad/">Menús navidad 2020</a> */}
               {cartas.map((carta, i) => (
                 <Link
                   key={carta.frontmatter.slug}
