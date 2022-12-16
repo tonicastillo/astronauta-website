@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import s from "./legal.module.scss"
+import * as s from "./legal.module.scss"
 import { Link } from "gatsby"
 
 const Legal = () => {

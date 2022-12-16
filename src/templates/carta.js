@@ -1,7 +1,7 @@
 import React from "react"
-
+import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import s from "./carta.module.scss"
+import * as s from "./carta.module.scss"
 import { Link } from "gatsby"
 export const pageQuery = graphql`
   query($slug: String!) {

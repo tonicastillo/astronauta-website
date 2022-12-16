@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image/withIEPolyfill"
-import styles from "./image.module.scss"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
+import * as styles from "./image.module.scss"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -30,11 +31,11 @@ const Image = () => {
       escritorio:allFile(filter: {sourceInstanceName: {eq: "galeriaescritorio"}}) {
         nodes {
           childImageSharp {
-            fluid(maxWidth: 1992, quality: 60)  {
-              ...GatsbyImageSharpFluid_withWebp
-              aspectRatio
-            },
-            id
+            gatsbyImageData(
+              width: 1992
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
           }
         }
       }
@@ -56,23 +57,30 @@ const Image = () => {
   return (<div className={styles.container}>
     
     <div className={styles.square}>
-      {data.cuadradas.nodes.map((node, i)=>(
-        <div key={node.childImageSharp.id} className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
-          <Img className={styles.image_content} objectFit="contain" fluid={node.childImageSharp.fluid} />
-        </div>
-      ))}
+      {data.cuadradas.nodes.map((node, i)=> {
+        const image=getImage(node)
+        return (
+          <div key={i}
+               className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
+            <GatsbyImage className={styles.image_content} objectFit="contain" image={image} />
+          </div>
+        )
+      })}
     </div>
-    <div className={styles.desktop}>
-    {data.escritorio.nodes.map((node, i)=>(
-      <div key={node.childImageSharp.id} className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
-        <Img
-          className={styles.image_content}
-          objectFit="contain"
-          fluid={node.childImageSharp.fluid}
-        />
+      <div className={styles.desktop}>
+        {data.escritorio.nodes.map((node, i)=>{
+          const image=getImage(node)
+          return (
+            <div key={i} className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
+              <GatsbyImage
+                className={styles.image_content}
+                objectFit="contain"
+                image={image}
+              />
+            </div>
+          )}
+        )}
       </div>
-    ))}
-    </div>
   </div>
   )
 }

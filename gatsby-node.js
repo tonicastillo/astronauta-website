@@ -10,10 +10,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const blogPostTemplate = require.resolve(`./src/templates/carta.js`)
     const result = await graphql(`
       {
-        allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___orden] }
-          limit: 1000
-        ) {
+         allMarkdownRemark(sort: {frontmatter: {orden: DESC}}, limit: 1000) {
           edges {
             node {
               frontmatter {

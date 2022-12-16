@@ -9,58 +9,59 @@ color: "#bae5e0"
 ## Carta<br>restaurante
 ---
 
-|Entrantes                                                        |    1/2     |Entera |
-|-----------------------------------------------------------------|------------|-------|
-|**Humus de garbanzos**  crema de garbanzos con crudités de verduras o tostaditas. |6,00 €      |9,50 € |
-|**Salmorejo de tomate**  crema fría de tomate con jamón (en temporada). |5,50 €      |9,00 € |
-|**Mazamorra**  crema fría de almendras con crema de membrillo y bacalao ahumado. |6,50 €      |10,00 €|
-|**Mezzes**  surtido de tapas frías: mazamorra, almogrote, humus, crema de berenjenas.    |8,50 €      |11,50 €|
-|**Surtido de croquetas 5/8 unidades**  de setas, bacalao, cocido y espinacas con cabrales.      |6,00 €      |9,50 € |
-|**Revuelto de setas con foie**  con boletus y setas variadas.       |  --       |12,50 €|
-|**Fajitas de ternera y pollo**  con verduras y salsa de yogur.         |8,50 €      |10,50 €|
-|**Fajitas de pollo al curry rojo**  con verduras acompañado de curry rojo.    |8,50 €      |10,50 €|
-|**Tabla de quesos**  Queso tierno de cabra con leche cruda, Gouda viejo de vaca, oveja curado, azul de vaca, torta de oveja acompañados con manzana, membrillo, pasas y frutos secos.|9,00 €      |12,50 €|
+También disponible en [formato pdf](/cartas_restaurante_web_2022.pdf).
+
+|Entrantes                                                        |    1/2     | Entera |
+|-----------------------------------------------------------------|------------|--------|
+|**Surtido de croquetas 5/8 unidades** Pregunta por nuestra variedad. | 7,50 € | 11,00 € |
+|**Guacamole** con pico de gallo y nachos. | 8,50 € | 11,00 € |
+|**Mazamorra** crema fría de almendras con ahumados y membrillo. | 8,00 € | 11,00 € |
+|**Humus de garbanzos** crema de garbanzos con crudités de verduras o tostaditas. | 7,00 € | 10,50 € |
+|**Salmorejo** crema fría de tomate con jamón (en temporada). | 6,50 € | 9.50 € |
+|**Mezzes** surtido de tapas frías: humus de remolacha, mazamorra, guacamole, humus. | 9,50 € | 12.50 € |
+|**Fajitas de pollo y ternera** con verduras y salsa de yogur. | 8,50 € | 11.50 € |
+|**Fajitas con falafel de garbanzos** con lechuga, tomate, queso y vinagreta de yogur. | 8,50 € | 11.50 € |
+|**Tabla de quesos** Oveja curado, gouda viejo de vaca, azul de vaca , torta de oveja acompañados con manzana, membrillo y frutos secos. | 9,50 € | 13.00 € |
+|**Carpaccio de chuleta** Con Aceite de Oliva Virgen Extra |     | 9.00 € |
 
 |Ensaladas |  1/2   |Entera |
 |---|---|---|
-|**Ensalada de arroces ecológicos** con atún marinado, verduras, alga nori y vinagreta de soja.              |9,00 €      |12,00 €|
-|**Ensalada de queso de cabra** con cebolla caramelizada, frutos secos y vinagreta de mostaza.             |9,00 €      |12,00 €|
-|**Ensalada de bacalao ahumado** con naranja, mazamorra y vinagreta de aceitunas negras.                                   |9,00 €      |12,00 €|
-|**Ensalada de pollo** crujiente de pollo con fruta y vinagreta de curry.                  |9,50 €      |12,50 €|
-|**Ensalada de tallarines** con tomates aliñados, aguacate, pepino, cebolla morada, queso feta con vinagreta de albahaca.       |9,50 €      |12,50 €|
+|**Ensalada de tallarines** con tomates aliñados, aguacate, pepino, cebolla morada, queso feta con vinagreta de albahaca.       |9,50 €      |13,00 €|
+|**Ensalada de arroces ecológicos** con atún marinado, verduras, alga nori y vinagreta de soja.              |9,50 €      |13,00 €|
+|**Ensalada de queso de cabra** con cebolla caramelizada, frutos secos y vinagreta de mostaza.             |9,50 €      |13,00 €|
+|**Ensalada de lentejas al estilo marroquí** *con vinagreta de queso y verduritas.*                                   |9,50 €      |13,00 €|
+|**Ensalada de delicias de oca** con canónigos, jamón, frutos secos y vinagreta de frutos rojos/miel.                  |10,00 €      |13,50 €|
 
 |Platos Vegetarianos                                              |    1/2     |Entera |
 |-----------------------------------------------------------------|------------|-------|
-|**Bocadillo vegetal** de aguacate con queso de cabra, tomate y rúcula con crema balsámica.                                                 |       --     |7,50 € |
-|**Hamburguesa vegana** de habas y garbanzos                                                                                                 |       --     |10,50 €|
-|**Verduras a la plancha** con queso de cabra y manzana.                                                                                        |8,50 €      |11,50 €|
-|**Musaka** milhojas de berenjena y calabacin con soja texturizada y bechamel con leche vegetal.                                 |        --    |11,50 €|
-|**Pappardelle** con pesto de avellana y Grana Padano.                                                                                |      --      |12,00 €|
-|**Pappardelle** con tomates semideshidratados.                                                                                       |     --      |12,00 €|
+|**Hamburguesa vegana** de alubias pintas, champiñones y brócoli.                                                                                                 |       --     |12,00 €|
+|**Pad thai verduras** tallarines salteados con verduras, chile, lima, soja y cacahuetes tostados.                                                 |       --     |13,50 € |
+|**Tagliatelle** con pesto de avellana.                                                                                        |--      |13,00 €|
+|**Musaka vegana** milhojas de berenjena y calabacin con soja texturizada y bechamel con leche vegetal.                                 |        --    |12,50 €|
 
 |Pescados                                                         |    1/2     |Entera |
 |-----------------------------------------------------------------|------------|-------|
-|**Atún a la plancha** suprema de atún rojo con sésamo, mango y mostaza a las finas hierbas.                                                |10,00 €     |14,00 €|
-|**Lomo de salmón** a la plancha con eneldo, tallarines y verduritas                                                                     |10,00 €     |14,00 €|
-|**Bacalao confitado** con mazamorra y cebolla roja caramelizada                                                                            |10,00 €     |14,50 €|
-|**Tartar de atún** con soja, mostaza y coulis de fresa.                                                                                 |     --       |15,00 €|
+|**Bacalao confitado** con pisto.                                                                            |11,00 €     |15,00 €|
+|**Tartar de atún rojo **aguacate y tomate con soja y mostaza.                                                                                 |     --       |16,50 €|
+|**Lubina** con arroz integral ecológico y salsa teriyaki.                                                |--     |14,00 €|
 
 |Carnes                                                           |    1/2     |Entera |
 |-----------------------------------------------------------------|------------|-------|
-|**Fajita de kefta** de ternera con salsa de yogur y cilantro.                                                                            |      --      |7,50 € |
-|**Hamburguesa de ternera (180gr)** con queso chedar y patatas gajo                                                                                      |     --       |11,50 €|
-|**Musaka de cordero** con bechamel de queso y vinagreta de cúrcuma y pasas.                                                                |9,00 €      |12,00 €|
-|**Abanico ibérico** con pimientos del piquillo y patatas panaderas                                                                       |    --        |12,00 €|
-|**Pastela de pollo** hojaldre de pasta filo relleno de pollo con huevo, cebolla, almendras, canela y miel.                                |     --       |12,50 €|
-|**Tataki de ternera** sobre ensalada de quinoa.                                                                                            |     --       |15,00 €|
+|**Musaka de cordero** con bechamel de queso y vinagreta de cúrcuma y pasas.                                                                |9,50 €      |13,00 €|
+|**Hamburguesa de ternera** con lechuga, tomate, cebolla, queso chedar y mermelada de tomate.                                                                                      |     --       |12,50 €|
+| **Hamburguesa de ternera** con canónigos, queso de cabra y reducción de PX. |     --       |12,50 €|
+| **Pastela marroquí** hojaldre de pasta filo relleno de pollo con huevo, cebolla, almendras, canela y miel. | --     | 13,50 € |
+|**Solomillo de ternera (200 gr)** con puré de patatas y espinacas a la mostaza.                                                                            |      --      |20,00 € |
+|**Confit de oca a la naranja (500 gr aprox.)** para dos personas. | -- |21,00 € |
+|**Abanico ibérico a la plancha** con patatas confitadas.                                                                                            |     --       |15,00 €|
 
 |Postres                                                          |         |Entera |
 |-----------------------------------------------------------------|------------|-------|
-|**Coulant de chocolate negro** con sal Maldon y helado de vainilla.                                                                                 |     --       |4,50 € |
-|**Trihelado** Copa de helado de tres sabores.                                                                                      |      --      |4,50 € |
-|**Milhojas de membrillo** y crema de queso de oveja con coulis de naranja.                                                                     |      --      |5,00 € |
-|**Tarta de zanahoria** con helado de mandarina                                                                                              |       --     |5,00 € |
-|**Tarta de queso** con frutos rojos                                                                                                     |        --    |5,00 € |
+|**Coulant de chocolate** con helado de vainilla.                                                                                 |     --       |5,50 € |
+| **Tarta de la abuela** Galletas, natillas y crema de chocolate. |      --      |5,50 € |
+|**Tarta de zanahoria** con helado de mandarina.                                                                     |      --      |5,00 € |
+|**Tarta de queso** con frutos rojos.                                                                                              |       --     |5,00 € |
+|**Trihelado** copa de helado con tres sabores.                                                                                                     |        --    |5,00 € |
 
 **Servicio de pan**  1,00 €
 

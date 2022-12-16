@@ -7,7 +7,7 @@
 
 import React from "react"
 import SEO from "../components/seo"
-import styles from "../pages/index.module.scss"
+import * as styles from "../pages/index.module.scss"
 import Image from "../components/image"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
@@ -16,7 +16,7 @@ import "./layout.css"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: { order: ASC, fields: frontmatter___orden }) {
+      allMarkdownRemark(sort: {frontmatter: {orden: ASC}}) { 
         nodes {
           frontmatter {
             title
@@ -39,7 +39,6 @@ const Layout = ({ children }) => {
               </Link>
             </h1>
             <div className={styles.descargas_escritorio}>
-              {/* <a href="/navidad/">Menús navidad 2020</a> */}
               {cartas.map((carta, i) => (
                 <Link
                   key={carta.frontmatter.slug}
@@ -58,7 +57,6 @@ const Layout = ({ children }) => {
           <div className={styles.home_scroll}>
             <div className={styles.home_background_white}>
               <div className={styles.descargas_movil}>
-                <a href="/navidad/">Menús navidad 2020</a>
                 {cartas.map((carta, i) => (
                   <Link
                     key={carta.frontmatter.slug}
