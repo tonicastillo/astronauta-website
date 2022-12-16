@@ -7,22 +7,23 @@ color: "#bae5e0"
 ---
 
 ## Carta<br>restaurante
----
 
 También disponible en [formato pdf](/cartas_restaurante_web_2022.pdf).
 
-|Entrantes                                                        |    1/2     | Entera |
-|-----------------------------------------------------------------|------------|--------|
+---
+
+|Entrantes                                                        |    1/2     | Entera  |
+|-----------------------------------------------------------------|------------|---------|
 |**Surtido de croquetas 5/8 unidades** Pregunta por nuestra variedad. | 7,50 € | 11,00 € |
 |**Guacamole** con pico de gallo y nachos. | 8,50 € | 11,00 € |
 |**Mazamorra** crema fría de almendras con ahumados y membrillo. | 8,00 € | 11,00 € |
 |**Humus de garbanzos** crema de garbanzos con crudités de verduras o tostaditas. | 7,00 € | 10,50 € |
-|**Salmorejo** crema fría de tomate con jamón (en temporada). | 6,50 € | 9.50 € |
+|**Salmorejo** crema fría de tomate con jamón (en temporada). | 6,50 € | 9.50 €  |
 |**Mezzes** surtido de tapas frías: humus de remolacha, mazamorra, guacamole, humus. | 9,50 € | 12.50 € |
 |**Fajitas de pollo y ternera** con verduras y salsa de yogur. | 8,50 € | 11.50 € |
-|**Fajitas con falafel de garbanzos** con lechuga, tomate, queso y vinagreta de yogur. | 8,50 € | 11.50 € |
+|**Fajitas con falafel de garbanzos** con lechuga, tomate, queso y vinagreta de yogur. | 8,50 € | --      |
 |**Tabla de quesos** Oveja curado, gouda viejo de vaca, azul de vaca , torta de oveja acompañados con manzana, membrillo y frutos secos. | 9,50 € | 13.00 € |
-|**Carpaccio de chuleta** Con Aceite de Oliva Virgen Extra |     | 9.00 € |
+|**Carpaccio de chuleta** Con Aceite de Oliva Virgen Extra |     | 9.00 €  |
 
 |Ensaladas |  1/2   |Entera |
 |---|---|---|
@@ -45,15 +46,15 @@ También disponible en [formato pdf](/cartas_restaurante_web_2022.pdf).
 |**Tartar de atún rojo **aguacate y tomate con soja y mostaza.                                                                                 |     --       |16,50 €|
 |**Lubina** con arroz integral ecológico y salsa teriyaki.                                                |--     |14,00 €|
 
-|Carnes                                                           |    1/2     |Entera |
-|-----------------------------------------------------------------|------------|-------|
-|**Musaka de cordero** con bechamel de queso y vinagreta de cúrcuma y pasas.                                                                |9,50 €      |13,00 €|
-|**Hamburguesa de ternera** con lechuga, tomate, cebolla, queso chedar y mermelada de tomate.                                                                                      |     --       |12,50 €|
+|Carnes                                                          |    1/2     |Entera |
+|----------------------------------------------------------------|------------|-------|
+|**Musaka de cordero** con bechamel de queso y vinagreta de cúrcuma y pasas.                                                               |9,50 €      |13,00 €|
+|**Hamburguesa de ternera** con lechuga, tomate, cebolla, queso chedar y mermelada de tomate.                                                                                     |     --       |12,50 €|
 | **Hamburguesa de ternera** con canónigos, queso de cabra y reducción de PX. |     --       |12,50 €|
 | **Pastela marroquí** hojaldre de pasta filo relleno de pollo con huevo, cebolla, almendras, canela y miel. | --     | 13,50 € |
-|**Solomillo de ternera (200 gr)** con puré de patatas y espinacas a la mostaza.                                                                            |      --      |20,00 € |
-|**Confit de oca a la naranja (500 gr aprox.)** para dos personas. | -- |21,00 € |
-|**Abanico ibérico a la plancha** con patatas confitadas.                                                                                            |     --       |15,00 €|
+|**Solomillo de ternera (200 gr)** con puré de patatas y espinacas a la mostaza.                                                                           |      --      |20,00 € |
+|**Confit de oca a la naranja** para dos personas. | -- |21,00 € |
+|**Abanico ibérico a la plancha** con patatas confitadas.                                                                                           |     --       |15,00 €|
 
 |Postres                                                          |         |Entera |
 |-----------------------------------------------------------------|------------|-------|

@@ -71,16 +71,7 @@ const Layout = ({ children }) => {
                 <div className={styles.col1}>
                   <a href="tel:+34957491123">957 491 123</a>
                   <br />
-                  Reservas y pedidos para recoger
-                  <br />
-                  <br />
-                  <a
-                    href="https://www.just-eat.es/restaurants-restaurante-el-astronauta-cordoba"
-                    target="_blank"
-                    title="Just Eat Restaurante el astronauta Córdoba"
-                  >
-                    Just Eat (Pedidos para llevar)
-                  </a>
+                  Reservas
                 </div>
                 <div className={styles.col2}>
                   <a href="mailto:hola@elastronauta.es">hola@elastronauta.es</a>
@@ -112,7 +103,7 @@ const Layout = ({ children }) => {
                 <span>
                   <Link to="/legal">Aviso legal</Link>.
                 </span>
-                <span>© Proyecto el Astronauta 2020</span>
+                <span>© Proyecto el Astronauta 2023</span>
               </footer>
             </div>
           </div>
