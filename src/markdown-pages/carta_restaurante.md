@@ -40,11 +40,11 @@ También disponible en [formato pdf](/cartas_restaurante_web_2022.pdf).
 |**Tagliatelle** con pesto de avellana.                                                                                        |--      |13,00 €|
 |**Musaka vegana** milhojas de berenjena y calabacin con soja texturizada y bechamel con leche vegetal.                                 |        --    |12,50 €|
 
-|Pescados                                                         |    1/2     |Entera |
-|-----------------------------------------------------------------|------------|-------|
-|**Bacalao confitado** con pisto.                                                                            |11,00 €     |15,00 €|
-|**Tartar de atún rojo **aguacate y tomate con soja y mostaza.                                                                                 |     --       |16,50 €|
-|**Lubina** con arroz integral ecológico y salsa teriyaki.                                                |--     |14,00 €|
+| Pescados                                                      |    1/2     |Entera |
+|---------------------------------------------------------------|------------|-------|
+| **Bacalao confitado** con pisto.                              |11,00 €     |15,00 €|
+| **Tartar de atún rojo** aguacate y tomate con soja y mostaza. |     --       |16,50 €|
+| **Lubina** con arroz integral ecológico y salsa teriyaki.    |--     |14,00 €|
 
 |Carnes                                                          |    1/2     |Entera |
 |----------------------------------------------------------------|------------|-------|
@@ -53,7 +53,7 @@ También disponible en [formato pdf](/cartas_restaurante_web_2022.pdf).
 | **Hamburguesa de ternera** con canónigos, queso de cabra y reducción de PX. |     --       |12,50 €|
 | **Pastela marroquí** hojaldre de pasta filo relleno de pollo con huevo, cebolla, almendras, canela y miel. | --     | 13,50 € |
 |**Solomillo de ternera (200 gr)** con puré de patatas y espinacas a la mostaza.                                                                           |      --      |20,00 € |
-|**Confit de oca a la naranja** para dos personas. | -- |21,00 € |
+|**Confit de oca a la naranja** | -- |21,00 € |
 |**Abanico ibérico a la plancha** con patatas confitadas.                                                                                           |     --       |15,00 €|
 
 |Postres                                                          |         |Entera |
