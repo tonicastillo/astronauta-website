@@ -19,11 +19,12 @@ También disponible en [formato pdf](/cartas_restaurante_web_2023.pdf).
 |**Mazamorra** crema fría de almendras con ahumados y membrillo. | 8,00 € | 11,50 € |
 |**Humus de garbanzos** crema de garbanzos con crudités de verduras o tostaditas. | 7,00 € | 10,50 € |
 |**Salmorejo** crema fría de tomate con jamón (en temporada). | 6,50 € | 9.50 €  |
-|**Mezzes** surtido de tapas frías: humus de remolacha, mazamorra, guacamole, humus. |  | 13.00 € |
+|**Mezzes** surtido de tapas frías: humus de remolacha, mazamorra, guacamole, humus. | -- | 13.00 € |
+|**Pan bao relleno de Goulash Húngaro** 2 ud. Pan bao relleno de estofado de carne un poco picante con encurtidos y salsa de yogur. |--  | 14.00 € |
 |**Fajitas de pollo y ternera** con verduras y salsa de yogur. | 9,50 € | 13.50 € |
 |**Fajitas con falafel de garbanzos** con lechuga, tomate, queso y vinagreta de yogur. | 9,50 € | --      |
 |**Tabla de quesos** Oveja curado, gouda viejo de vaca, azul de vaca, torta de oveja acompañados con manzana, membrillo y frutos secos. | 9,50 € | 13.00 € |
-|**Carpaccio de chuleta** Con Aceite de Oliva Virgen Extra |     | 11.50 €  |
+|**Carpaccio de chuleta** Con Aceite de Oliva Virgen Extra |  --   | 11.50 €  |
 
 |Ensaladas |  1/2   |Entera |
 |---|---|---|
