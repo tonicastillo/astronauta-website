@@ -21,10 +21,11 @@ const Image = () => {
       cuadradas:allFile(filter: {sourceInstanceName: {eq: "galeriacuadradas"}}) {
         nodes {
           childImageSharp {
-            fluid(maxWidth: 1280, maxHeight: 1280, quality: 40)  {
-              ...GatsbyImageSharpFluid_withWebp
-            },
-            id
+            gatsbyImageData(
+              width: 1992
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
           }
         }
       }
@@ -62,7 +63,7 @@ const Image = () => {
         return (
           <div key={i}
                className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
-            <GatsbyImage className={styles.image_content} objectFit="contain" image={image} />
+            <GatsbyImage className={styles.image_content} objectFit="contain" image={image} loading="eager" />
           </div>
         )
       })}
@@ -70,12 +71,13 @@ const Image = () => {
       <div className={styles.desktop}>
         {data.escritorio.nodes.map((node, i)=>{
           const image=getImage(node)
-          return (
+        return (
             <div key={i} className={`${styles.image_container} ${i === activeImage ? styles.image_container_visible : ''}`}>
               <GatsbyImage
                 className={styles.image_content}
                 objectFit="contain"
                 image={image}
+                loading="eager"
               />
             </div>
           )}
