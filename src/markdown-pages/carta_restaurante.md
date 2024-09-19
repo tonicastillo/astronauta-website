@@ -29,7 +29,7 @@ También disponible en [formato pdf](/cartas_restaurante_web_2024.pdf).
 | Ensaladas                                                                                                                | 1/2     | Entera  |
 | ------------------------------------------------------------------------------------------------------------------------ | ------- | ------- |
 | **Ensalada de tallarines** con tomates aliñados, aguacate, pepino, cebolla morada, queso feta con vinagreta de albahaca. | 9,50 €  | 13,00 € |
-| **Ensalada de atuín rojo marinado** con arroz, verduras, alga nori y vinagreta de soja.                                  | 10,00 € | 14,00 € |
+| **Ensalada de atún rojo marinado** con arroz, verduras, alga nori y vinagreta de soja.                                   | 10,00 € | 14,00 € |
 | **Ensalada de queso de cabra** con cebolla caramelizada, frutos secos y vinagreta de mostaza.                            | 9,50 €  | 13,00 € |
 | **Ensalada de pollo crijiente** con manzana caramelizada, pasas y vinagreta curry.\*                                     | 10,00 € | 13,50 € |
 | **Ensalada de ahumados** con naranja, pepino, sésamo negro y vinagreta de wasabi y soja.                                 | 10,00 € | 13,50 € |
